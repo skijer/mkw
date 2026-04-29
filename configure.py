@@ -800,7 +800,7 @@ config.libs = [
             Object(NonMatching, "kart/KartPhysics.cpp"),
             Object(Matching, "kart/KartPhysicsInstance.cpp"),
             Object(NonMatching, "kart/KartDynamics.cpp"),
-            Object(NonMatching, "kart/KartHitbox.cpp"),
+            Object(Equivalent, "kart/KartHitbox.cpp"),
 
             Object(Matching, "ui/ControlGroup.cpp"),
             Object(Matching, "ui/MessageGroup.cpp"),
