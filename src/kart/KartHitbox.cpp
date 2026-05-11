@@ -17,7 +17,6 @@ void Hitbox::reset() {
   this->relPos.setZero();
 }
 
-MARK_FLOW_CHECK(0x805b7fbc);
 void Hitbox::update(const EGG::Vector3f& scale, const EGG::Quatf& rot, const EGG::Vector3f& pos, f32 totalScale, f32 hitboxElevation) {
   f32 postScaleHitboxElevation = 0.0f;
   if (scale.y < totalScale) {
